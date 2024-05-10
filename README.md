@@ -14,30 +14,30 @@
 
 ## 高并发解决
 
-![image-20240510125454276](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510125454276.png)
+![image-20240510125454276](https://github.com/769174850/seckill-system/blob/main/image-20240510125454276.png)
 
 ## 项目问题
 
 1. 出现了服务端获取到了活动数据但是客户端没有获取到的情况，相同逻辑的商品服务却可以正常运行（尚未解决）
 
-![image-20240510123030551](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510123030551.png)
+![image-20240510123030551](https://github.com/769174850/seckill-system/blob/main/image-20240510123030551.png)
 
-![image-20240510123045662](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510123045662.png)
+![image-20240510123045662](https://github.com/769174850/seckill-system/blob/main/image-20240510123045662.png)
 
-![image-20240510123059362](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510123059362.png)
+![image-20240510123059362](https://github.com/769174850/seckill-system/blob/main/image-20240510123059362.png)
 
-商品服务![image-20240510123928209](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510123928209.png)
+商品服务![image-20240510123928209](https://github.com/769174850/seckill-system/blob/main/image-20240510123928209.png)
 
 2. 订单生成的服务调用出现未知空字符转换为Int类型的错误，同时服务端无法接收到数据，但是在另外一个只含有一个订单生成服务的测试项目中，服务端获取到了数据，但是未知空字符转换为Int类型的错误仍旧存在（仍旧未解决）
 
-![image-20240510123949370](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510123949370.png)
+![image-20240510123949370](https://github.com/769174850/seckill-system/blob/main/image-20240510123949370.png)
 
-![image-20240510124003332](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510124003332.png)
+![image-20240510124003332](https://github.com/769174850/seckill-system/blob/main/image-20240510124003332.png)
 
-![image-20240510124022324](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510124022324.png)
+![image-20240510124022324](https://github.com/769174850/seckill-system/blob/main/image-20240510124022324.png)
 
 如下为测试订单生成项目的图片
 
-![image-20240510124147899](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510124147899.png)
+![image-20240510124147899](https://github.com/769174850/seckill-system/blob/main/image-20240510124147899.png)
 
-![image-20240510124253191](C:\Users\Zz3y\AppData\Roaming\Typora\typora-user-images\image-20240510124253191.png)
+![image-20240510124253191](https://github.com/769174850/seckill-system/blob/main/image-20240510124253191.png)
